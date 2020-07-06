@@ -5,9 +5,9 @@ El objetivo de este repositorio es poder organizar y subir todos los prácticos 
 
 ## ¿Cómo subir las soluciones de los prácticos?
 1. Clonar el repositorio
-2. Crear un branch con la siguiente sintaxis `[nombre]-[sprint]-[practico]`
+2. Crear un branch con la siguiente sintaxis `[nombre]-[semana]-[practico]`
 3. Pararse dentro de la carpeta del sprint
-4. Crear una carpeta con la siguiente sintaxis `[nombre]-[sprint]-[practico]`
+4. Crear una carpeta con la siguiente sintaxis `[nombre]-[semana]-[practico]`
 5. Desarrollar la solución del práctico
 6. Commitear y pushear los cambios al branch
 7. Hacer un PR contra el branch `master` y pasarlo para recibir el `code review`
@@ -16,7 +16,7 @@ El objetivo de este repositorio es poder organizar y subir todos los prácticos 
 ```bash
 git clone https://github.com/Matea-Social/bootcamp-js-2020-practicos.git
 ```
-### 2. Crear un branch con la siguiente sintaxis `[nombre]-[sprint]-[practico]`
+### 2. Crear un branch con la siguiente sintaxis `[nombre]-[semana]-[practico]`
 Antes que nada, ⚠️ asegurate de estar en el branch `master` y tenerlo actualizado con los últimos cambios.
 
 ```bash
@@ -28,7 +28,7 @@ git checkout -B martinvarela-examplesprint-suma
 ### 3. Pararse dentro de la carpeta del sprint
 Cada sprint debe tener una carpeta dónde todos podamos subir los ejercicios, esto con el objetivo de organizarnos mejor. Por ejemplo, el nombre de la carpeta del primer sprint puede ser `examplesprint`.
 
-### 4. Crear una carpeta con la siguiente sintaxis `[nombre]-[sprint]-[practico]`
+### 4. Crear una carpeta con la siguiente sintaxis `[nombre]-[semana]-[practico]`
 Luego de estar dentro de la carpeta perteneciente al sprint en el que estemos, deberas crear otra carpeta con el mismo nombre que le pusiste al branch, por ejemplo: `martinvarela-examplesprint-suma`.
 ```bash
 mkdir martinvarela-examplesprint-suma
